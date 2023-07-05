@@ -1,0 +1,36 @@
+.MainCategoryHeading {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--font-color1);
+    margin-top: 1.5rem;
+  }
+  .MainCategoryContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+  }
+  @media (max-width: 395px) {
+    .MainCategoryHeading {
+      font-size: 2rem;
+    }
+  }
+  @media (max-width: 430px) {
+    .MainCategoryContainer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .MainCategoryHeading {
+      font-size: 2rem;
+    }
+  }
+  @media (max-width: 798px) {
+    .MainCategoryContainer {
+      font-size: 1.6rem;
+    }
+    .MainCategoryHeading {
+      font-size: 2.5rem;
+    }
+  }
+  

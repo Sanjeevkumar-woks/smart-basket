@@ -1,0 +1,98 @@
+.BannerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 12rem;
+}
+.BannerLeftContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.BannerLeftContainer .BannerBiggerContainer {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--font-color1);
+  font-size: 6rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.BannerBiggerContainer .BannerMainHeading {
+  color: var(--header-color);
+}
+.BannerBiggerContainer .BannerTitle {
+  display: block;
+}
+
+.BannerLeftContainer .BannerSmallText {
+  margin-top: 2rem;
+  max-width: 70%;
+  color: var(--font-color);
+  font-size: 1.5rem;
+}
+.BannerRight .BannerGrid {
+  background-color: #fff;
+  background-image: radial-gradient(var(--font-color) 0.08rem, #fff 0.08rem);
+  background-size: 1rem 1rem;
+  opacity: 0.8;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem;
+  justify-items: center;
+  grid-row-gap: 4.5rem;
+  grid-column-gap: 1.5rem;
+
+   &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -1.6rem;
+      right: -1.6rem;
+      background: white;
+      height: 4.5rem;
+      width: 4.5rem;
+      border-radius: 4.5rem;
+      transition: transform 0.25s ease-out;
+      opacity: 0.3;
+    }
+}
+@media (width <= 395px) {
+  .BannerRight {
+    display: none;
+  }
+  .BannerBiggerContainer .BannerMainHeading,
+  .BannerBiggerContainer .BannerTitle,
+  .BannerBiggerContainer .BannerSubTitle {
+    font-size: 3.2rem;
+  }
+  .BannerLeftContainer .BannerSmallText {
+    max-width: 95%;
+  }
+}
+@media (max-width: 798px) {
+  .BannerContainer {
+    grid-template-columns: 1fr;
+  }
+  .BannerRight {
+    margin-top: 3rem;
+  }
+  .BannerBiggerContainer .BannerMainHeading,
+  .BannerBiggerContainer .BannerTitle,
+  .BannerBiggerContainer .BannerSubTitle {
+    font-size: 3.5rem;
+  }
+  .BannerLeftContainer .BannerSmallText {
+    max-width: 80%;
+  }
+}
+@media (max-width: 1024px) {
+  .BannerContainer {
+    margin-top: 16rem;
+  }
+  .BannerBiggerContainer {
+    font-size: 4.5rem;
+  }
+}

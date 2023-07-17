@@ -1,0 +1,111 @@
+.SignUpPageContainer {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+}
+.SignUpForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.36rem;
+}
+.SignUpPageContainer {
+  margin-top: 12rem;
+}
+.SignUpFormBorder {
+  border: 1px solid var(--line-color);
+  padding: 2rem;
+  border-radius: 0.36rem;
+}
+.SignUpForm {
+  gap: 1.8rem;
+  background-color: var(--bg-color);
+  width: 40rem;
+}
+.SignUpFormNameContainer,
+.SignUpFormEmailContainer,
+.SignUpFormPasswordContainer,
+.SignUpFormConfirmPasswordContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+}
+.SignUpForm input {
+  border: 1px solid var(--line-color);
+  padding: 1rem;
+  outline: none;
+  border-radius: 0.36rem;
+}
+.SignUpForm input:focus {
+  outline: 0.1rem solid var(--main-dark-color);
+}
+.SignUpForm label {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.SignUpFormHeader {
+  color: var(--main-dark-color);
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  padding: 1rem;
+}
+.LoginLink {
+  padding: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.SignUpForm button {
+  color: var(--main-dark-color);
+  border: 0.1rem solid var(--main-dark-color);
+  background-color: var(--light-bg-color);
+  padding: 1rem;
+  width: 80%;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 0.36rem;
+}
+.LoginLink span {
+  color: var(--main-dark-color);
+  margin-left: 0.5rem;
+  font-weight: 500;
+  user-select: none;
+  cursor: pointer;
+}
+.SignUpErrorMessage {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+.SignUpFormConfirmPasswordContainer,
+.SignUpFormPasswordContainer {
+  position: relative;
+}
+.PasswordVisibility,
+.confirmPasswordVisibility {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .SignUpPageContainer {
+    margin-top: 16rem;
+  }
+}
+@media (max-width: 595px) {
+  .SignUpForm {
+    width: auto;
+    padding: 1rem;
+  }
+}

@@ -3,39 +3,39 @@
 export const main_categories = [
     {
       _id: "MC_1",
-      name: "Vegetables & Fruits",
+      name: "Idli & Sambar",
       image:
-        "https://res.cloudinary.com/dcu6sympq/image/upload/v1684210012/grocery/main_category/MC_1_wmxcs0.webp",
+        "https://i.pinimg.com/474x/41/e7/42/41e742c815b1ab240413b5f35f42e97f.jpg",
     },
     {
       _id: "MC_2",
-      name: "Bakery & Biscuits",
+      name: "Momos",
       image:
-        "https://res.cloudinary.com/dcu6sympq/image/upload/v1684210012/grocery/main_category/MC_2_txxj3i.webp",
+        "https://i.pinimg.com/474x/16/dc/36/16dc367e80ce5c4e8a74c6193db9b09d.jpg",
     },
     {
       _id: "MC_3",
-      name: "Atta, Rice & Dal",
+      name: "Masala Dosa",
       image:
-        "https://res.cloudinary.com/dcu6sympq/image/upload/v1684210012/grocery/main_category/MC_3_qszppw.webp",
+        "https://i.pinimg.com/474x/4d/98/eb/4d98eb338fa3db0471e47f59a30ef7af.jpg",
     },
     {
       _id: "MC_4",
-      name: "Cold Drinks & Juices",
+      name: "Chole Bhature",
       image:
-        "https://res.cloudinary.com/dcu6sympq/image/upload/v1684210012/grocery/main_category/MC_4_uddyub.webp",
+        "https://i.pinimg.com/474x/ec/03/57/ec035702034b49f04d5233bd88e0e7ed.jpg",
     },
     {
       _id: "MC_5",
-      name: "Chicken, Meat & Fish",
+      name: "Treditnal Thali",
       image:
-        "https://res.cloudinary.com/dcu6sympq/image/upload/v1684210011/grocery/main_category/Mc_5_vapd3w.webp",
+        "https://i.pinimg.com/474x/e5/65/b3/e565b3567fff9e8ce08817565954aa39.jpg",
     },
     {
       _id: "MC_6",
-      name: "Paan Corner",
+      name: "Golgappa",
       image:
-        "https://res.cloudinary.com/dcu6sympq/image/upload/v1684984430/grocery/main_category/MC_6_v9gwsv.png",
+        "https://i.pinimg.com/474x/78/23/56/782356e06f80f96e0362f3e09abcfd3a.jpg",
     },
   ];
   

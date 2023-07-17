@@ -1,31 +1,30 @@
 export const banner = [
-    {
-      color: "#dfecf7",
-      imageSrc:
-        "https://res.cloudinary.com/dcu6sympq/image/upload/v1684170735/grocery/banner/icecream_jqkov7.png",
-      title: "Ice Cream",
-      subTitle: "Small Scoop, Big Smile",
-    },
-    {
-      color: "#f4dff7",
-      imageSrc:
-        "https://res.cloudinary.com/dcu6sympq/image/upload/v1684170825/grocery/banner/water_maloon_vypkkj.png",
-      title: "Water Melon",
-      subTitle: "Summer Refreshment in Every Bite",
-    },
-    {
-      color: "#e2f2c4",
-      imageSrc:
-        "https://res.cloudinary.com/dcu6sympq/image/upload/v1684170794/grocery/banner/strawberry_kgxnsj.png",
-      title: "Straberry",
-      subTitle: "Sweetness of a Small Strawberry ",
-    },
-    {
-      color: "#ffdbc6",
-      imageSrc:
-        "https://res.cloudinary.com/dcu6sympq/image/upload/v1684170753/grocery/banner/banana_zpuyqw.png",
-      title: "Banana",
-      subTitle: "Joy of Snacking on a Small Banana",
-    },
-  ];
-  
+  {
+    color: "#f4dff7",
+    imageSrc:
+      "https://i.pinimg.com/474x/51/09/b8/5109b8bd7b30f48660333bd1aa3798ca.jpg",
+    title: "Brakefast",
+    subTitle: "Break the Fast with light Breakfast",
+  },
+  {
+    color: "#dfecf7",
+    imageSrc:
+      "https://clipart-library.com/newhp/kissclipart-indian-food-clipart-south-indian-cuisine-clip-art-7cfeb4fb070d8ac6.jpg",
+    title: "Lunch",
+    subTitle: "Stomach Full Lunch",
+  },
+  {
+    color: "#e2f2c4",
+    imageSrc:
+      "https://i.pinimg.com/474x/43/60/84/43608468f21f05bd2cf528d70e90135c.jpg",
+    title: "Sanaks",
+    subTitle: "Joy of Snacking ",
+  },
+  {
+    color: "#ffdbc6",
+    imageSrc:
+      "https://i.pinimg.com/474x/b8/bd/f3/b8bdf3629d0072b061cf0dc545078359.jpg",
+    title: "Dinner",
+    subTitle: "Plesent Dinner",
+  },
+];

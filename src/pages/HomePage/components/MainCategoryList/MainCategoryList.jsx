@@ -8,7 +8,7 @@ export function MainCategoryList() {
     console.log(main_categories)
   return (
     <>
-      <div className="MainCategoryHeading">Shop by category</div>
+      <div className="MainCategoryHeading">Inspiration for your first order</div>
       <div className="MainCategoryContainer">
         {main_categories.map((mainCategory, i) => {
           return (

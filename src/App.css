@@ -16,3 +16,6 @@ body {
   html::-webkit-scrollbar-thumb {
     background: #420177;
   }
+  img{
+    border-radius: 15%;
+  }

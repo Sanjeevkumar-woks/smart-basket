@@ -1,0 +1,161 @@
+.MenuItemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 1px solid var(--line-color);
+  cursor: pointer;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.MenuItemImageTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+}
+.MenuItemImageTop img {
+  height: 15rem;
+  width: 15rem;
+  align-self: center;
+}
+.MenuItemType img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.MenuItemDetailsBottom {
+  box-sizing: border-box;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* Start Rating */
+.checked {
+  color: orange;
+}
+.MenuItemTypeAndTime {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.1rem;
+}
+.DeliveryTimeContainer {
+  display: flex;
+  width: 9rem;
+  background: var(--bg-color);
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  padding: 0.6rem 0.2rem;
+}
+.DeliveryTimeContainer .DeliveryTime,
+.ClockIconContainer {
+  margin-left: 0.5rem;
+}
+.MenuItemName {
+  font-weight: 600;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+  height: 3.6rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.MenuItemNameVericleLine {
+  background: var(--bg-color);
+  height: 0.1rem;
+}
+
+.MenuItemVarinats {
+  outline: none;
+  border: 1px solid var(--line-color);
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  background: white;
+  cursor: pointer;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.MenuItemVarinats,
+.MenuItemVarinat {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.MenuItemVarinat {
+  padding: 0rem;
+  margin: 3rem 0rem 1rem;
+}
+.PriceAndButtonContaine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 0rem;
+}
+.AddToCartButton,
+.GoToCartButton {
+  border: 0.2rem solid var(--main-dark-color);
+  color: var(--main-dark-color);
+  background-color: var(--light-bg-color);
+  font-weight: 400;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.OutOfStockContainer {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.OutOfStock {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 0.36rem;
+  padding: 0.5rem;
+  position: absolute;
+  right: 1rem;
+  left: 1rem;
+  top: 12rem;
+  text-align: center;
+}
+
+@media (max-width: 395px) {
+  .GoToCartButton {
+    font-size: 1rem;
+    padding: 1rem 0.2rem;
+  }
+}
+@media (max-width: 640px) {
+  .GoToCartButton,
+  .AddToCartButton {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}
+@media (hover: hover) {
+  .MenuItemContainer:hover {
+    outline: 0.1rem solid var(--main-dark-color);
+  }
+}

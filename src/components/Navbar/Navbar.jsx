@@ -17,7 +17,7 @@ export function Navbar() {
       <div className="NavLeftContainer">
         <div className="LogoContainer" onClick={() => navigate("/")}>
           <div className="Logo">
-            <span>Smart</span>🧺Basket
+            <span>Food🍽️In</span>
           </div>
         </div>
         <div className="VerticleDivider"></div>
